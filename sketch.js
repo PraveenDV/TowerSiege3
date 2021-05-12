@@ -320,22 +320,7 @@ function keyPressed(){
   }
 }
 
-/*async function getTime(){
-  var response=await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
-  var responseJSON= await response.json();
 
-  var datetime=responseJSON.datetime;
-  var hour=datetime.slice(11,13);
-
-  if(hour>=0600 && hour<=1900){
-    bg="Images/bg.png";
-  }else{
-    bg="Images/bg2.jpg";
-  }
-
-  backgroundImg=loadImage(bg);
-
-}*/
 
 
 
