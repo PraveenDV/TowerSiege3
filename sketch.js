@@ -320,7 +320,7 @@ function keyPressed(){
   }
 }
 
-async function getTime(){
+/*async function getTime(){
   var response=await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
   var responseJSON= await response.json();
 
@@ -335,7 +335,7 @@ async function getTime(){
 
   backgroundImg=loadImage(bg);
 
-}
+}*/
 
 
 
