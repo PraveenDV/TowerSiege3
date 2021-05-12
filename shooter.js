@@ -7,7 +7,7 @@ class Shooter{
         }
 
         this.body=Bodies.circle(100,600,35,options);
-        this.image=loadImage("Images/hexagon.png");
+        this.image=loadImage("hexagon.png");
         
 
         World.add(world,this.body);
